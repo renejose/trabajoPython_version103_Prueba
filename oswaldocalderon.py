@@ -9,3 +9,8 @@ def calcular_promedio(numeros):
 lista = [7.5, 8.0, 9.2, 6.8]
 prom = calcular_promedio(lista)
 print(f"El promedio es: {prom:.2f}")
+
+
+def sumar_numeros(num1,num2):
+    resultado= num1 + num2
+    return resultado
