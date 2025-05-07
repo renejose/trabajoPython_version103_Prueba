@@ -34,6 +34,6 @@ class LetreroAlfabeto:
         color = random.choice(COLORES)
         self.texto.config(text=letra_actual, fg=color)
         self.index += 1
-        self.ventana.after(2000, self.cambiar_letra)  # cambia cada 2 segundos
+        self.ventana.after(2000, self.cambiar_letra)  # cambia cada 2 segundos ss
 
 LetreroAlfabeto()
